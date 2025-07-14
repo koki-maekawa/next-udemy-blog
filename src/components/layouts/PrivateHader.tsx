@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -6,7 +5,6 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu"
 import Link from "next/link"
-import SearchBox from "../post/SearchBox"
 
 import {auth} from '@/auth'
 import Setting from "./Setting"

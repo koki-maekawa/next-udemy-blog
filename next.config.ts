@@ -9,6 +9,13 @@ const nextConfig: NextConfig = {
         hostname: 'picsum.photos',
       },
     ],
+  },
+  eslint: {
+    ignoreDuringBuilds: false,
+    dirs: ['src']
+  },
+  typescript: {
+    ignoreBuildErrors: false
   }
 };
 

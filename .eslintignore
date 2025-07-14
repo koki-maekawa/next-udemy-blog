@@ -1,0 +1,6 @@
+src/generated/
+prisma/
+.next/
+node_modules/
+*.config.js
+*.config.mjs
